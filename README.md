@@ -1,6 +1,3 @@
-# Text-to-Speech_App
-an offline unlimited text-to-speech application
-
 Text-to-Speech with Python
 In today's digital age, the ability to convert text into spoken words is becoming increasingly valuable. Text-to-speech (TTS) technology enables applications to communicate with users through natural-sounding voices, enhancing user experience and accessibility. In this tutorial, we'll delve into the world of TTS using Python, utilizing XTTS from the TTS library to convert text to speech effortlessly. XTTS is a Voice generation model that lets you clone voices into different languages by using just a quick 6-second audio clip.
 Prerequisites:
@@ -39,9 +36,7 @@ sd.play(output['wav'], samplerate=sr)
 
 # Save the output to a WAV file
 sf.write('output.wav', output['wav'], sr)
-![2024-08-29 15 16 14](https://github.com/user-attachments/assets/0ab394f5-02d2-4bfb-ad5b-b1ae42cdc2a8)
-
-
 Conclusion:
 And there you have it! You've just created a simple text-to-speech application using Python and the TTS library. Feel free to explore further and customize the TTS settings to suit your needs. With this newfound knowledge, you can integrate tePxt-to-speech capabilities into your projects, whether it's for enhancing accessibility or building interactive voice applications. Happy coding!
+![2024-08-29 15 16 14](https://github.com/user-attachments/assets/18c08d5b-6c53-4875-aeb3-d36942f052c8)
 
